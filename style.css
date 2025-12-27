@@ -1,0 +1,1602 @@
+*{
+    padding:0;
+    margin:0;
+    border:border-box;
+    font-family: arial;
+}
+
+/* navigation bar */
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* logo */
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* location */
+
+.nav-location{
+    height: 60px;
+    width: 90px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top:10px;
+}
+
+.location{
+    height:50px;
+}
+
+.deliver{
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+.icon{
+    color:#FFFFFF;
+    font-size: 15px;
+}
+
+.india{
+    font-size: 14px;
+    font-weight:650;
+}
+
+/* search bar */
+
+.nav-search{
+    height:40px;
+    display:flex;
+    border: 3px solid black;
+}
+
+.nav-search:hover{
+    border: 3px solid rgb(243, 189, 91);
+}
+
+.search{
+    width: 40px;
+    border:1px solid #CCCCCC;
+    display: flex;
+    background-color: #CCCCCC;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.bar{
+    width:670px;
+    margin:0px;
+    border:1px solid white;
+    font-size: 15px;
+}
+
+.glass{
+    height:40px;
+    width:40px;
+    border:1px solid rgb(243, 189, 91);
+    background-color: rgb(243, 189, 91);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    font-size: 1.2rem;
+}
+
+/* language */
+
+.lang{
+    height:50px;
+    width:55px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag{
+    height:16px;
+    width:21px;
+    padding-bottom: 5px;
+    background-image: url(/flag.png);
+    background-size: cover;
+    display:inline-block;
+}
+
+.en{
+    color:white;
+}
+
+/* account */
+
+.nav-account{
+    color:white;
+    height:50px;
+    width:140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    font-size: 12px;
+}
+
+.account{
+    display:inline-block;
+    font-weight: 650;
+    font-size: 14px;
+}
+
+.arrow{
+    display: inline-block;
+    color:#CCCCCC;
+    font-size: 12px;
+}
+
+/* returns */
+
+.nav-return{
+    color:white;
+    height:50px;
+    width:70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.return{
+    font-size: 12px;
+}
+
+.order{
+    font-weight: 650;
+    font-size: 14px;
+}
+
+/* cart */
+
+.nav-cart{
+    color:white;
+    display:flex;
+    height:50px;
+    width: 70px;
+    padding-bottom: 25px;
+}
+
+.shcart{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column-reverse;
+    font-weight:550;
+    font-size:16px;
+}
+
+/* 2nd navigation bar */
+
+.nav2{
+    background-color: #232F3E;
+    height:40px;
+    display:flex;
+    align-items: center;
+}
+
+.all{
+    text-decoration:none;
+    color:white;
+    font-weight: 650;
+    padding:10px 10px 10px 20px;
+    font-size: 14px;
+}
+
+.bars{
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navs{
+    text-decoration:none;
+    color:white;
+    padding:10px;
+    font-size: 14px;
+}
+
+/* hero */
+
+.hero{
+    height: 600px;
+    background-image: url(/hero.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+}
+
+.hero-message{
+    background-color: white;
+    position: absolute;
+    top:350px;
+    height:50px;
+    width:1450px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amazon{
+    text-decoration: none;
+    color: #2162A1;
+}
+
+/* content */
+
+.content{
+    height:3000px;
+    width:1450px;
+    background-color: #e6e6e6;
+    position:absolute;
+    top:430px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conrow1{
+    height: 385px;
+    width: 1450px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.conrow2{
+    height: 385px;
+    width: 1450px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.conrow3{
+    height: 385px;
+    width: 1450px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.conrow4{
+    height: 385px;
+    width: 1450px;
+    display:flex;
+    justify-content: space-between;
+}
+
+/* boxes */
+
+.boxes{
+    height:385px;
+    width:350px;
+    background-color: white;
+    padding:20px 15px;
+}
+
+.box-title{
+    font-size: 20px;
+    height:50px;
+    font-weight:700;
+    color: #0F1111;
+}
+
+.box-pics{
+    height:300px;
+    display:flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-direction: column;
+}
+
+.box-link{
+    text-decoration:none;
+    color:#2162A1;
+    font-size:13px;
+}
+
+/* home-essentials */
+
+.herow1{
+    height:100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.herow2{
+    height: 100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.he{
+    background-color: #0F1111;
+    height:100px;
+    width:130px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* text */
+
+.herow1text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#he1text{
+    height:60px;
+    width:130px;
+}
+
+#he2text{
+    height:60px;
+    width:130px;
+}
+
+.herow2text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#he3text{
+    height:60px;
+    width:130px;
+}
+
+#he4text{
+    height:60px;
+    width:130px;
+}
+
+/* images */
+
+#he1{
+    background-image: url(/cleaning-tools.jpg);
+    background-size: cover;
+}
+
+#he2{
+    background-image: url(/home-storage.jpg);
+    background-size: cover;
+}
+
+#he3{
+    background-image: url(/home-decor.jpg);
+    background-size: cover;
+}
+
+#he4{
+    background-image: url(/bedding.jpg);
+    background-size: cover;
+}
+
+/* games */
+
+.game{
+    height:350px;
+    width:300px;
+    background-image: url(/game.jpg);
+    background-size: cover;
+}
+
+/* kitchen */
+
+.krow1{
+    height:140px;
+    width:300px;
+    background-color: black;
+}
+
+.krow2{
+    width: 300px;
+    height: 100px;
+    display:flex;
+}
+
+/* text */
+
+.ktext{
+    height:40px;
+    width:300px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#k2text{
+    height:40px;
+    width:95px;
+}
+
+#k3text{
+    height:40px;
+    width:95px;
+}
+
+#k4text{
+    height:40px;
+    width:95px;
+}
+
+/* images */
+
+#k1{
+    height:140px;
+    width:300px;
+    background-image: url(/cooker.jpg);
+    background-size: cover;
+}
+
+#k2{
+    height:100px;
+    width:100px;
+    margin-right: 2px;
+    background-image: url(/coffee.jpg);
+    background-size: cover;
+}
+
+#k3{
+    height:100px;
+    width:100px;
+    margin:0px 2px;
+    background-image: url(/potspans.jpg);
+    background-size: cover;
+}
+
+#k4{
+    height:100px;
+    width:100px;
+    margin-left: 2px;
+    background-image: url(/kettles.jpg);
+    background-size: cover;
+}
+
+/* fashion */
+
+.frow1{
+    height:100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.frow2{
+    height: 100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.f{
+    background-color: #0F1111;
+    height:100px;
+    width:130px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* text */
+
+.frow1text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#f1text{
+    height:60px;
+    width:130px;
+}
+
+#f2text{
+    height:60px;
+    width:130px;
+}
+
+.frow2text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#f3text{
+    height:60px;
+    width:130px;
+}
+
+#f4text{
+    height:60px;
+    width:130px;
+}
+
+/* images */
+
+#f1{
+    background-image: url(/jeans.jpg);
+    background-size: cover;
+}
+
+#f2{
+    background-image: url(/tops.jpg);
+    background-size: cover;
+}
+
+#f3{
+    background-image: url(/dresses.jpg);
+    background-size: cover;
+}
+
+#f4{
+    background-image: url(/shoes.jpg);
+    background-size: cover;
+}
+
+/* home-arrivals */
+
+.harow1{
+    height:100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.harow2{
+    height: 100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.ha{
+    background-color: #0F1111;
+    height:100px;
+    width:130px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* text */
+
+.harow1text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#ha1text{
+    height:60px;
+    width:130px;
+}
+
+#ha2text{
+    height:60px;
+    width:130px;
+}
+
+.harow2text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#ha3text{
+    height:60px;
+    width:130px;
+}
+
+#ha4text{
+    height:60px;
+    width:130px;
+}
+
+/* images */
+
+#ha1{
+    background-image: url(/kitchen&dining.jpg);
+    background-size: cover;
+}
+
+#ha2{
+    background-image: url(/homeimpr.jpg);
+    background-size: cover;
+}
+
+#ha3{
+    background-image: url(/decor.jpg);
+    background-size: cover;
+}
+
+#ha4{
+    background-image: url(/bedding&bath.jpg);
+    background-size: cover;
+}
+
+/* space */
+
+.sprow1{
+    height:100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.sprow2{
+    height: 100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.sp{
+    background-color: #0F1111;
+    height:100px;
+    width:130px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* text */
+
+.sprow1text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#sp1text{
+    height:60px;
+    width:130px;
+}
+
+#sp2text{
+    height:60px;
+    width:130px;
+}
+
+.sprow2text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#sp3text{
+    height:60px;
+    width:130px;
+}
+
+#sp4text{
+    height:60px;
+    width:130px;
+}
+
+/* images */
+
+#sp1{
+    background-image: url(/dining.jpg);
+    background-size: cover;
+}
+
+#sp2{
+    background-image: url(/home.jpg);
+    background-size: cover;
+}
+
+#sp3{
+    background-image: url(/kitchen.jpg);
+    background-size: cover;
+}
+
+#sp4{
+    background-image: url(/health&beauty.jpg);
+    background-size: cover;
+}
+
+/* rowbox */
+
+.rowbox{
+    height:250px;
+    width:1450px;
+    background-color: #FFFFFF;
+    padding: 10px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.row-box-title{
+    font-size: 20px;
+    height:50px;
+    font-weight:700;
+    color: #0F1111;
+}
+
+.inrow{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* india */
+
+.in1{
+    height:180px;
+    width:130px;
+    display:inline-block;
+    background-image: url(/india/watch1.jpg);
+    background-size: cover;
+}
+
+.in2{
+    height:180px;
+    width:150px;
+    display:inline-block;
+    background-image: url(/india/stroller.jpg);
+    background-size: cover;
+}
+
+.in3{
+    height:180px;
+    width:100px;
+    display:inline-block;
+    background-image: url(/india/watch2.jpg);
+    background-size: cover;
+}
+
+.in4{
+    height:180px;
+    width:285px;
+    display:inline-block;
+    background-image: url(/india/tv.jpg);
+    background-size: cover;
+}
+
+.in5{
+    height:180px;
+    width:90px;
+    display:inline-block;
+    background-image: url(/india/cetaphil.jpg);
+    background-size: cover;
+}
+
+.in6{
+    height:180px;
+    width:130px;
+    display:inline-block;
+    background-image: url(/india/xbox.jpg);
+    background-size: cover;
+}
+
+.in7{
+    height:180px;
+    width:160px;
+    display:inline-block;
+    background-image: url(/india/cerave.jpg);
+    background-size: cover;
+}
+
+.in8{
+    height:180px;
+    width:85px;
+    display:inline-block;
+    background-image: url(/india/eos.jpg);
+    background-size: cover;
+}
+
+/* clshje */
+
+.cl1{
+    height:120px;
+    width:320px;
+    display:inline-block;
+    background-image: url(/clshje/crocs.jpg);
+    background-size: cover;
+}
+
+.cl2{
+    height:180px;
+    width:185px;
+    display:inline-block;
+    background-image: url(/clshje/shoe.jpg);
+    background-size: cover;
+}
+
+.cl3{
+    height:180px;
+    width:170px;
+    display:inline-block;
+    background-image: url(/clshje/tshirts.jpg);
+    background-size: cover;
+}
+
+.cl4{
+    height:180px;
+    width:130px;
+    display:inline-block;
+    background-image: url(/clshje/tshirt.jpg);
+    background-size: cover;
+}
+
+.cl5{
+    height:180px;
+    width:90px;
+    display:inline-block;
+    background-image: url(/clshje/trouser1.jpg);
+    background-size: cover;
+}
+
+.cl6{
+    height:180px;
+    width:120px;
+    display:inline-block;
+    background-image: url(/clshje/trouser2.jpg);
+    background-size: cover;
+}
+
+.cl7{
+    height:180px;
+    width:100px;
+    display:inline-block;
+    background-image: url(/clshje/vests.jpg);
+    background-size: cover;
+}
+
+/* electronics */
+
+.elrow1{
+    height:100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.elrow2{
+    height: 100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.el{
+    background-color: #0F1111;
+    height:100px;
+    width:130px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* text */
+
+.elrow1text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#el1text{
+    height:60px;
+    width:130px;
+}
+
+#el2text{
+    height:60px;
+    width:130px;
+}
+
+.elrow2text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#el3text{
+    height:60px;
+    width:130px;
+}
+
+#el4text{
+    height:60px;
+    width:130px;
+}
+
+/* images */
+
+#el1{
+    background-image: url(/headphones.jpg);
+    background-size: cover;
+}
+
+#el2{
+    background-image: url(/tablets.jpg);
+    background-size: cover;
+}
+
+#el3{
+    background-image: url(/gaming.jpg);
+    background-size: cover;
+}
+
+#el4{
+    background-image: url(/speakers.jpg);
+    background-size: cover;
+}
+
+/* travel */
+
+.trrow1{
+    height:100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.trrow2{
+    height: 100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.tr{
+    background-color: #0F1111;
+    height:100px;
+    width:130px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* text */
+
+.trrow1text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#tr1text{
+    height:60px;
+    width:130px;
+}
+
+#tr2text{
+    height:60px;
+    width:130px;
+}
+
+.trrow2text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#tr3text{
+    height:60px;
+    width:130px;
+}
+
+#tr4text{
+    height:60px;
+    width:130px;
+}
+
+/* images */
+
+#tr1{
+    background-image: url(/backpacks.jpg);
+    background-size: cover;
+}
+
+#tr2{
+    background-image: url(/suitcases.jpg);
+    background-size: cover;
+}
+
+#tr3{
+    background-image: url(/accessories.jpg);
+    background-size: cover;
+}
+
+#tr4{
+    background-image: url(/handbags.jpg);
+    background-size: cover;
+}
+
+/* toys */
+
+.toys{
+    height:350px;
+    width:300px;
+    background-image: url(/toys.jpg);
+    background-size: cover;
+}
+
+/* sports */
+
+.sp1{
+    height:180px;
+    width:335px;
+    display:inline-block;
+    background-image: url(/sports/dumbels.jpg);
+    background-size: cover;
+}
+
+.sp2{
+    height:180px;
+    width:190px;
+    display:inline-block;
+    background-image: url(/sports/straps.jpg);
+    background-size: cover;
+}
+
+.sp3{
+    height:180px;
+    width:190px;
+    display:inline-block;
+    background-image: url(/sports/glasses.jpg);
+    background-size: cover;
+}
+
+.sp4{
+    height:180px;
+    width:235px;
+    display:inline-block;
+    background-image: url(/sports/mat.jpg);
+    background-size: cover;
+}
+
+.sp5{
+    height:180px;
+    width:225px;
+    display:inline-block;
+    background-image: url(/sports/supersoft.jpg);
+    background-size: cover;
+}
+
+.sp6{
+    height:180px;
+    width:58px;
+    display:inline-block;
+    background-image: url(/sports/bottle.jpg);
+    background-size: cover;
+}
+
+/* beauty */
+
+.b1{
+    height:180px;
+    width:170px;
+    display:inline-block;
+    background-image: url(/beauty/towel.jpg);
+    background-size: cover;
+}
+
+.b2{
+    height:180px;
+    width:195px;
+    display:inline-block;
+    background-image: url(/beauty/bliss.jpg);
+    background-size: cover;
+}
+
+.b3{
+    height:180px;
+    width:90px;
+    display:inline-block;
+    background-image: url(/beauty/cottonswab.jpg);
+    background-size: cover;
+}
+
+.b4{
+    height:180px;
+    width:175px;
+    display:inline-block;
+    background-image: url(/beauty/makeuprem.jpg);
+    background-size: cover;
+}
+
+.b5{
+    height:180px;
+    width:90px;
+    display:inline-block;
+    background-image: url(/beauty/dove.jpg);
+    background-size: cover;
+}
+
+.b6{
+    height:180px;
+    width:47px;
+    display:inline-block;
+    background-image: url(/beauty/bottle.jpg);
+    background-size: cover;
+}
+
+.b7{
+    height:180px;
+    width:100px;
+    display:inline-block;
+    background-image: url(/beauty/lash.jpg);
+    background-size: cover;
+}
+
+.b8{
+    height:180px;
+    width:170px;
+    display:inline-block;
+    background-image: url(/beauty/medicube.jpg);
+    background-size: cover;
+}
+
+/* pc */
+
+.pcrow1{
+    height:100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.pcrow2{
+    height: 100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.pc{
+    background-color: #0F1111;
+    height:100px;
+    width:130px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* text */
+
+.pcrow1text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#pc1text{
+    height:60px;
+    width:130px;
+}
+
+#pc2text{
+    height:60px;
+    width:130px;
+}
+
+.pcrow2text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#pc3text{
+    height:60px;
+    width:130px;
+}
+
+#pc4text{
+    height:60px;
+    width:130px;
+}
+
+/* images */
+
+#pc1{
+    background-image: url(/laptops.jpg);
+    background-size: cover;
+}
+
+#pc2{
+    background-image: url(/pcs.jpg);
+    background-size: cover;
+}
+
+#pc3{
+    background-image: url(/hardrives.jpg);
+    background-size: cover;
+}
+
+#pc4{
+    background-image: url(/monitors.jpg);
+    background-size: cover;
+}
+
+/* watches */
+
+.wrow1{
+    height:100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.wrow2{
+    height: 100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.w{
+    background-color: #0F1111;
+    height:100px;
+    width:130px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* text */
+
+.wrow1text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#w1text{
+    height:60px;
+    width:130px;
+}
+
+#w2text{
+    height:60px;
+    width:130px;
+}
+
+.wrow2text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#w3text{
+    height:60px;
+    width:130px;
+}
+
+#w4text{
+    height:60px;
+    width:130px;
+}
+
+/* images */
+
+#w1{
+    background-image: url(/women.jpg);
+    background-size: cover;
+}
+
+#w2{
+    background-image: url(/men.jpg);
+    background-size: cover;
+}
+
+#w3{
+    background-image: url(/girls.jpg);
+    background-size: cover;
+}
+
+#w4{
+    background-image: url(/boys.jpg);
+    background-size: cover;
+}
+
+/* season */
+
+.srow1{
+    height:100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.srow2{
+    height: 100px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.s{
+    background-color: #0F1111;
+    height:100px;
+    width:130px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* text */
+
+.srow1text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#s1text{
+    height:60px;
+    width:130px;
+}
+
+#s2text{
+    height:60px;
+    width:130px;
+}
+
+.srow2text{
+    padding-bottom: 10px;
+    height:60px;
+    width:340px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight:550;
+    color:#535353;
+}
+
+#s3text{
+    height:60px;
+    width:130px;
+}
+
+#s4text{
+    height:60px;
+    width:130px;
+}
+
+/* images */
+
+#s1{
+    background-image: url(/for-her.jpg.jpg);
+    background-size: cover;
+}
+
+#s2{
+    background-image: url(/for-him.jpg);
+    background-size: cover;
+}
+
+#s3{
+    background-image: url(/for-teens.jpg);
+    background-size: cover;
+}
+
+#s4{
+    background-image: url(/for-kids.jpg);
+    background-size: cover;
+}
+
+/* back to top */
+
+.back-to-top{
+    height:40px;
+    width:1550px;
+    position:absolute;
+    bottom:-2830px;
+    background-color:#333f58eb;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.back{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.864);
+}
+
+/* footer1 */
+
+.footer1{
+    height:400px;
+    width:1550px;
+    position:absolute;
+    bottom:-3270px;
+    background-color:#1c2638;
+    color:rgba(255, 255, 255, 0.864);
+    display:flex;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.f1{
+    height:390px;
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+}
+
+.f1title{
+    font-weight: 650;
+    margin:10px 0px;
+}
+
+#f11{
+    height: 175px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#f12{
+    height: 270px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#f13{
+    height: 110px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#f14{
+    height: 210px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#f1l{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.864);
+}
+
+/* footer2 */
+
+.footer2{
+    height:100px;
+    width:1550px;
+    background-color: #1c2638;
+    position:absolute;
+    bottom:-3371px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f2{
+    height:40px;
+    width:600px;
+    margin-left:120px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.f2c{
+    height:30px;
+    width: 170px;
+    color:#aeaeae;
+    border: 1px solid #aeaeae;
+    border-radius: 5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
